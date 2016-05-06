@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="center_horizontal">
+
+    <!--  Эта кнопка будет открывать окно для просмотра всех продуктов -->
+    <Button android:id="@+id/btnViewProducts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_viewproduct"
+            android:layout_marginTop="25dip"/>
+
+    <!--  Эта кнопка будет открывать окно для создания нового продукта -->
+    <Button android:id="@+id/btnCreateProduct"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_addnewproduct"
+            android:layout_marginTop="25dip"/>
+
+</LinearLayout>
